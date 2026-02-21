@@ -8,8 +8,8 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import com.example.checklist_compras_george_sebas.ui.ShoppingListScreen
 import com.example.checklist_compras_george_sebas.ui.theme.Checklist_compras_george_sebasTheme
+import com.example.checklist_compras_george_sebas.ui.ShoppingListScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
