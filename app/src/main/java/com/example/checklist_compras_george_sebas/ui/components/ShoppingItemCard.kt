@@ -15,7 +15,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
-import com.example.shoppingchecklist.model.ShoppingItem
+import com.example.checklist_compras_george_sebas.model.ShoppingItem
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
