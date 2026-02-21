@@ -16,8 +16,8 @@ class ShoppingViewModel : ViewModel() {
         addItem("Huevos")
         addItem("Manzanas")
         addItem("Arroz")
-        addItem("George Femboy")
-        addItem("George LadyBoy")
+        addItem("George persona normal y decente")
+        addItem("Sebastian LadyBoy y muy posible therian")
     }
 
     fun addItem(name: String) {
