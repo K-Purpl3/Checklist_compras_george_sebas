@@ -33,17 +33,16 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.checklist_compras_george_sebas.ui.components.AddItemDialog
-import com.example.checklist_compras_george_sebas.ui.components.ShoppingItemCard
-import com.example.checklist_compras_george_sebas.viewmodel.ShoppingViewModel
+import com.example.checklist_compras_george_sebas.components.AddItemDialog
+import com.example.checklist_compras_george_sebas.components.ShoppingItemCard
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ShoppingListScreen(
-    viewModel: ShoppingViewModel = viewModel()
+    viewModel: ListaCompraViewModel = viewModel()
 ) {
     var showAddDialog by remember { mutableStateOf(false) }
-    val items = viewModel.shoppingItems
+    val items = viewModel.productos
     val purchasedCount = viewModel.getPurchasedCount()
     val totalCount = viewModel.getTotalCount()
 

@@ -1,4 +1,4 @@
-package com.example.checklist_compras_george_sebas.ui.components
+package com.example.checklist_compras_george_sebas.components
 
 
 import androidx.compose.foundation.layout.*
